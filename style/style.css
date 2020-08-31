@@ -1,0 +1,117 @@
+body{
+    background: #f3f1ff;
+}
+.logo{
+       width: 40.42px;
+
+}
+.logo-img{
+    width: 51px;
+    height: 51px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 15px;
+}
+.player{
+    display: flex;
+    margin-top: 40px;
+}
+.top-player{
+    margin-top: 90px;
+    background-color: #ffff;
+}
+main{
+    max-width: 870px;
+    
+    
+}
+.t-player{
+    padding-top: 20px;
+    color: #562EFF;
+}
+.navbar{
+    padding: 0 220px;
+  
+}
+.active{
+    padding: 10px 15px;
+}
+header{
+    background-color: #562EFF;      
+}
+main p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.line{
+    width: 807px;
+    background-color:#D1D1D1;
+    height: 2px;
+    margin-top: 30px;
+    margin-left: 10px;
+    }
+    .top-blog{
+        background-color: white;
+    
+    }
+    .blog-img{
+        width: 177px;
+        height: 117px;
+    }
+    .blog{
+        display: flex;
+    }
+    .img-padding{
+         margin-left: 20px;
+    }
+   .margin{
+       margin-top: 30px;
+   }
+   span{
+       color:#562EFF ;
+   }
+   .card img{
+    width: 224px;
+    height: 104px;
+    align-items: center;
+   }
+   .card{
+      box-shadow:(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+   }
+   .buton{
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    padding:0 5px;
+   }
+   .card-img{
+        margin-left: 18px;
+        margin-top:10px;
+   }
+   .card{
+    border:none;
+    box-shadow:  5px 5px 15px 5px lightgrey;
+    border-radius: 15px;
+}
+.card-deck{
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.card p{
+    color:red;
+}
+.course{
+    background-color: white;
+    margin-top: 30px;
+}
+@media(max-width:768px){
+    .card-img{
+        margin-left: 0;
+        width:150px;
+    }
+}
